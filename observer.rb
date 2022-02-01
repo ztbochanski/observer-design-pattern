@@ -26,7 +26,7 @@ end
 class StationObserver
 
   def notify(station)
-    puts "station notified", station.temperature
+    puts "subscriber notified", station.temperature
   end
 
 end
